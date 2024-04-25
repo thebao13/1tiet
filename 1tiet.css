@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
 
     margin: 0px;
@@ -45,51 +44,3 @@ input[type = "text"]{
     color: black;
 }
 
-=======
-*{
-
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-   
-}
-.container{
-    width: 450px;
-    min-height: 300px;
-    padding: 20px;
-    border: 2px solid green;
-    border-radius: 5px;
-    background-color: beige;
-}
-h2 {
-    color: black;
-    text-align: center;
-    padding: 15PX;
-}
-input[type = "text"]{
-    width: 100%;
-    padding: 7px 10px;
-}
-
-.btn {
-    margin: 20px ;
-     background-color: pink;
-     padding: 10px 20px;
-     border: none;
-     border-radius: 5px;
-     margin-left: 60px;
-     cursor: pointer;
-     outline: none;
- }
- .btn:hover{
-    background-color: white;
-    color: black;
-}
-
->>>>>>> 4b040dc9f88d5a85ea100e91ec2b840334e00d5c
