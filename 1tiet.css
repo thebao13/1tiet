@@ -19,3 +19,27 @@ body{
     border-radius: 5px;
     background-color: beige;
 }
+h2 {
+    color: black;
+    text-align: center;
+    padding: 15PX;
+}
+input[type = "text"]{
+    width: 100%;
+    padding: 7px 10px;
+}
+
+.btn {
+    margin: 20px ;
+     background-color: pink;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     margin-left: 60px;
+     cursor: pointer;
+     outline: none;
+ }
+ .btn:hover{
+    background-color: white;
+    color: black;
+}
