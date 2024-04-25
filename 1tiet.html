@@ -9,6 +9,7 @@
     <script src='1tiet.js'></script>
 </head>
 <body>
+    <section>
     <div class="container">
         <h2>KIỂM TRA CHỈ SỐ BMI</h2>
         <form>
@@ -26,8 +27,56 @@
             </p>
             <button class="btn" type="button" onclick="ketqua()">Kết quả</button>
             <button class="btn" type="button" onclick="reset()">Reset</button>
+            <button class="btn" type="button" onclick="kiemtra()">Kiểm tra</button>
     
         </div>
+        </section>
+        <section><div class="bang">
+<h2>BẢNG CHỈ SỐ BMI PHÂN LOẠI THEO WHO</h2>
+<table >
+  <tr>
+    <th>Phân Loại</th>
+    <th>Người Châu Âu</th>
+    <th>Người Châu Á</th>
+  </tr>
+  <tr>
+    <td>Cân nặng thấp (gầy)</td>
+    <td>15 - 18,5</td>
+    <td> 18,5</td>
+  </tr>
+  <tr>
+    <td>Bình thường</td>
+    <td>18,5 - 25,5</td>
+    <td>18,5 - 22,9</td>
+  </tr>
+  <tr>
+    <td>Thừa cân</td>
+    <td>> 25</td>
+    <td>23 - 24.99</td>
+  </tr>
+  <tr>
+    <td>Tiền béo phì</td>
+    <td>25 - 30</td>
+    <td>≥ 25</td>
+  </tr>
+  <tr>
+    <td>Béo phì độ I</td>
+    <td>30 - 35</td>
+    <td>25 -29.9</td>
+  </tr>
+  <tr>
+    <td>Béo phì độ II</td>
+    <td>35 -40</td>
+    <td>30 –39.99</td>
+  </tr>
+  <tr>
+    <td>Béo phì độ III</td>
+    <td>≥40</td>
+    <td>≥40</td>
+  </tr>
+</table>
+        <button class="esc" type="button" onclick="trove()">Trở về </button>
+</div>
         </section>
 </body>
 </html>

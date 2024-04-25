@@ -1,7 +1,7 @@
 function ketqua(){
     var KG = document.getElementById("kg").value;
     var CM = document.getElementById("cm").value; 
-    var BMI = document.getElementById("bmi").value;
+    var BMI = document.getElementById("bmi");
     if (KG === ""){
         alert("Vui lòng nhập cân nặng");
         return false;
@@ -24,4 +24,10 @@ function ketqua(){
     BMI.value = bmi.toFixed(2);
 
     return true;
+}
+function kiemtra() {
+    var hienthi = document.querySelector('.bang');
+    hienthi.style.display = 'block';
+    var an = document.querySelector('.container')
+    an.style.display = 'none';
 }

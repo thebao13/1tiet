@@ -30,12 +30,12 @@ input[type = "text"]{
 }
 
 .btn {
-    margin: 20px ;
+    margin: 10px ;
      background-color: pink;
      padding: 10px 20px;
      border: none;
      border-radius: 5px;
-     margin-left: 60px;
+     margin-left: 30px;
      cursor: pointer;
      outline: none;
  }
@@ -43,4 +43,45 @@ input[type = "text"]{
     background-color: white;
     color: black;
 }
-
+.bang {
+    display: none;
+    width: 450px;
+    min-height: 300px;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: beige;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid  green;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: yellow;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
+ 
+  .esc {
+   display: block;
+   margin: 0 auto;
+     background-color: pink;
+    padding: 10px 20px ;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     outline: none;
+     margin-top: 10px;
+ }
+ .esc:hover{
+    background-color: white;
+    color: black;
+}
