@@ -31,3 +31,11 @@ function kiemtra() {
     var an = document.querySelector('.container')
     an.style.display = 'none';
 }
+function trove() {
+    var esc = document.querySelector('.container');
+    esc.style.display = 'block';
+    var hienthi = document.querySelector('.bang');
+    hienthi.style.display = 'none';
+
+    
+}
